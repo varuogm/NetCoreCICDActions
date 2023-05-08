@@ -22,9 +22,13 @@ namespace Dua.Controllers
         }
         [HttpGet]
         [Route("songs")]
-        public string songs()
+        public List<string> songs()
         {
-            return "Levitating";
+            List<string> songs = new List<string>();
+            songs.Add("Levitating");
+            songs.Add("get loose");
+
+            return songs;
         }
     }
 }
