@@ -1,4 +1,6 @@
 name: "PR Title Checker"
+uses: thehanimo/pr-title-checker@v1.3.7
+
 on:
   pull_request_target:
     types:
