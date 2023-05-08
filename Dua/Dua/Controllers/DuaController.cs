@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 
 namespace Dua.Controllers
 {
@@ -8,13 +9,6 @@ namespace Dua.Controllers
     public class DuaController : ControllerBase
     {
       
-        private readonly ILogger<DuaController> _logger;
-
-        public DuaController(ILogger<DuaController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet]
         public string InitialPage()
         {
@@ -26,6 +20,16 @@ namespace Dua.Controllers
         public string profile()
         {
             return "Dua lipa is a singer and its her profile";
+        }
+        [HttpGet]
+        [Route("songs")]
+        public List<string> songs()
+        {
+            List<string> songs = new List<string>();
+            songs.Add("Levitating");
+            songs.Add("get loose");
+
+            return songs;
         }
     }
 }
