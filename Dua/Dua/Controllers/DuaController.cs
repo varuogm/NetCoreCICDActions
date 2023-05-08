@@ -8,13 +8,6 @@ namespace Dua.Controllers
     public class DuaController : ControllerBase
     {
       
-        private readonly ILogger<DuaController> _logger;
-
-        public DuaController(ILogger<DuaController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet]
         public string InitialPage()
         {
