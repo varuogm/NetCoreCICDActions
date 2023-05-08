@@ -20,5 +20,11 @@ namespace Dua.Controllers
         {
             return "Dua lipa is a singer and its her profile";
         }
+        [HttpGet]
+        [Route("songs")]
+        public string songs()
+        {
+            return "Levitating";
+        }
     }
 }
