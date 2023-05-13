@@ -17,9 +17,9 @@ namespace Dua.Controllers
 
         [HttpGet]
         [Route("profile")]
-        public string profile()
+        public string porfile()
         {
-            return "Dua lipa is a singer and its her profile";
+            return "Dua lipa is a singer and its her perofile";
         }
         [HttpGet]
         [Route("songs")]
