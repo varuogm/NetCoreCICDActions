@@ -12,6 +12,6 @@ namespace Dua
 
         public string Summary { get; set; }
         
-        public string status {get;set;}
+        public bool status {get;set;}
     }
 }
