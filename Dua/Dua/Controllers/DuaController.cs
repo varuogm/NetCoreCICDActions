@@ -17,18 +17,18 @@ namespace Dua.Controllers
 
         [HttpGet]
         [Route("profile")]
-        public string profile()
+        public string Perofile()
         {
-            return "Dua lipa is a singer and its her profile";
+            return "Dua lipa is a Perfole and its her profile";
         }
         [HttpGet]
-        [Route("songs")]
+        [Route("soangs")]
         public List<string> songs()
         {
             List<string> songs = new List<string>();
             songs.Add("Levitating");
             songs.Add("get loose");
-            songs.Add("it the time to disco");
+            songs.Add("it the time to AUdnjn");
 
 
             return songs;
