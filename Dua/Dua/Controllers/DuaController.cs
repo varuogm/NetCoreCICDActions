@@ -14,12 +14,19 @@ namespace Dua.Controllers
         {
             return "This is Dua initial page";
         }
+        
+        [HttpGet]
+        [Route("age")]
+        public string Age()
+        {
+            return "Age-34";
+        }
 
         [HttpGet]
         [Route("profile")]
         public string profile()
         {
-            return "Dua lipa is a singer and its her profile";
+            return "Dua lipa is a singer and its her profile ";
         }
         [HttpGet]
         [Route("songs")]
