@@ -28,6 +28,8 @@ namespace Dua.Controllers
             List<string> songs = new List<string>();
             songs.Add("Levitating");
             songs.Add("get loose");
+            songs.Add("it the time to disco");
+
 
             return songs;
         }
