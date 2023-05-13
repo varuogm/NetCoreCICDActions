@@ -12,6 +12,6 @@ namespace Dua
 
         public string Summary { get; set; }
         
-        public bool status {get;set;}
+        public bool stactus {get;set;}
     }
 }
